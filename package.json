@@ -1,0 +1,13 @@
+{
+  "name": "backbone-route-control",
+  "version": "0.0.0",
+  "main": "backbone-route-control.js",
+  "keywords": ["backbone", "router", "controller"],
+  "authors": ["Brent Ertz <brent.ertz@gmail.com>"],
+  "homepage": "https://github.com/brentertz/backbone-route-control",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brentertz/backbone-route-control.git"
+  },
+  "license": "MIT"
+}
