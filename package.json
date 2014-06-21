@@ -3,12 +3,29 @@
   "decription": "Adds support for 'controller#action' style route action syntax",
   "version": "0.0.0",
   "main": "backbone-route-control.js",
-  "keywords": ["backbone", "router", "controller"],
-  "authors": ["Brent Ertz <brent.ertz@gmail.com>"],
+  "keywords": [
+    "backbone",
+    "router",
+    "controller"
+  ],
+  "authors": [
+    "Brent Ertz <brent.ertz@gmail.com>"
+  ],
   "homepage": "https://github.com/brentertz/backbone-route-control",
   "repository": {
     "type": "git",
     "url": "git://github.com/brentertz/backbone-route-control.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-mocha": "~0.4.11",
+    "backbone": "~1.1.2",
+    "underscore": "~1.6.0",
+    "mocha": "~1.20.1",
+    "chai": "~1.9.1",
+    "sinon": "~1.10.2",
+    "sinon-chai": "~2.5.0"
+  }
 }
