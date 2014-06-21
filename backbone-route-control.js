@@ -17,8 +17,7 @@
     _bindRoutes: function() {
       if (!this.routes) { return; }
       this.routes = _.result(this, 'routes');
-      var route;
-      var routes = _.keys(this.routes);
+      var route, routes = _.keys(this.routes);
       while ((route = routes.pop()) != null) {
         var routeAction = this.routes[route];
         var routeParts = routeAction.split('#');
