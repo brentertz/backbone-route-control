@@ -1,0 +1,21 @@
+{
+  "name": "backbone-route-control",
+  "description": "Adds support for 'controller#action' style syntax to Backbone's router",
+  "version": "0.1.0",
+  "main": "backbone-route-control.js",
+  "keywords": [
+    "backbone",
+    "router",
+    "controller"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "authors": [
+    "Brent Ertz <brent.ertz@gmail.com>"
+  ],
+  "homepage": "https://github.com/brentertz/backbone-route-control",
+  "license": "MIT"
+}
