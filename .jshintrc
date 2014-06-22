@@ -12,7 +12,7 @@
   "nonbsp": true,
   "quotmark": "true",
   "undef": true,
-  "unused": "vars",
+  "unused": "false",
   "trailing": true,
   "globals": {
     "define": true
