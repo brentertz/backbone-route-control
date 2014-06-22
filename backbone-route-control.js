@@ -4,7 +4,7 @@
   } else if (typeof exports === 'object') {
     module.exports = factory(require('underscore'), require('backbone'));
   } else {
-    factory(root._, root.Backbone);
+    root.BackboneRouteControl = factory(root._, root.Backbone);
   }
 })(this, function(_, Backbone) {
   var BackboneRouteControl = Backbone.Router.extend({
