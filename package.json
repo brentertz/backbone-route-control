@@ -23,6 +23,7 @@
     "grunt-mocha": "~0.4.11",
     "backbone": "~1.1.2",
     "underscore": "~1.6.0",
+    "jquery": "~2.1.1",
     "mocha": "~1.20.1",
     "chai": "~1.9.1",
     "sinon": "~1.10.2",
