@@ -1,7 +1,7 @@
 {
   "name": "backbone-route-control",
-  "decription": "Adds support for 'controller#action' style route action syntax",
-  "version": "0.0.0",
+  "decription": "Adds support for 'controller#action' style syntax to Backbone's router",
+  "version": "0.1.0",
   "main": "backbone-route-control.js",
   "keywords": [
     "backbone",
