@@ -2,7 +2,7 @@
   if (typeof define === 'function' && define.amd) {
     define(['underscore', 'backbone'], factory);
   } else if (typeof exports === 'object') {
-    module.exports = factory(require('underscore'), require('backbone'));
+    module.exports = factory(require('lodash'), require('backbone'));
   } else {
     root.BackboneRouteControl = factory(root._, root.Backbone);
   }
