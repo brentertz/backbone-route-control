@@ -17,16 +17,24 @@
     "url": "git://github.com/brentertz/backbone-route-control.git"
   },
   "license": "MIT",
+  "peerDependencies": {
+    "backbone": ">= 1.1.2",
+    "jquery": ">= 2.1.1"
+  },
   "devDependencies": {
+    "backbone": "~1.1.2",
+    "chai": "~1.9.1",
     "grunt": "~0.4.5",
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-mocha": "~0.4.11",
-    "backbone": "~1.1.2",
-    "underscore": "~1.6.0",
     "jquery": "~2.1.1",
+    "lodash": "^2.4.1",
     "mocha": "~1.20.1",
-    "chai": "~1.9.1",
+    "mocha-phantomjs": "^4.0.2",
     "sinon": "~1.10.2",
     "sinon-chai": "~2.5.0"
+  },
+  "scripts": {
+    "test": "mocha"
   }
 }
